@@ -350,7 +350,7 @@ line-height: normal;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 64px 48px;
+  gap: 63px 48px;
   max-width: 240px;
   list-style: none;
 }
