@@ -30,7 +30,8 @@ body {
   justify-content: space-between;
   }
 
-.header__links-list { 
+
+  .header__links-list { 
   display: flex;
   flex-wrap: wrap;
   gap: 31px;
@@ -47,9 +48,7 @@ body {
 }
 
 .header__link_active {
-  text-decoration: none;
-  
-}
+  text-decoration: none;}
 
 .header__address { 
   font-size: 18px;
@@ -75,6 +74,7 @@ line-height: normal;
  display: block;
  width: 148px;
  height: 105px; 
+
 }
 
 .header__logo-image {
