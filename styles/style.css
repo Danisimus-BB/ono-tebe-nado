@@ -1,7 +1,7 @@
 /* Стили хедера */
 
 body {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   color: black;
@@ -46,7 +46,7 @@ body {
   text-decoration: none;
 }
 
-.header__address {
+.address {
   font-size: 18px;
   line-height: 24.3px;
   justify-self: end;
@@ -319,12 +319,9 @@ body {
 }
 
 .footer__address {
-  font-size: 18px;
-  line-height: 24.3px;
   padding-left: 50px;
   margin-top: 23px;
   justify-self: start;
-  font-style: normal;
 }
 
 .footer__address-link {
@@ -332,13 +329,16 @@ body {
 }
 
 .footer__menu {
-  padding-left: 30px;
+  padding-left: 45px;
+  font-size: 18px;
+  height: 98px;
 }
 .footer__menu-list {
   text-align: center;
   list-style: none;
   padding-top: 10px;
 }
+
 
 .footer__social-list {
   display: flex;
